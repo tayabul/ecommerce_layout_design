@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+  <!-- Header markup start -->
+    <header>
+        <section id="header-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="index.php"><img src="img/logo.jpg" alt="Logo"></a>
+                      
+                      <div class="navbar" >
+                        
+                        <form class="d-flex">
+                          <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                        </form>
+
+                        <div class="mycart">
+                          <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                          <i class="fa-solid fa-0"></i>
+                          <p><a href="#">My Cart</a></p>
+                        </div>
+                        <ul class="navbar-nav ">
+                          <li class="nav-item">
+                            <i class="fa-solid fa-key"></i>
+                            <a class="nav-link active" aria-current="page" href="registration.html"> Sign Up</a>
+                          </li>
+                          <li class="nav-item">
+                          <i class="fa-solid fa-unlock"></i>
+                            <a class="nav-link active" aria-current="page" href="login.html">Login</a></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </section>
+    </header>
+    <!-- Header markup end -->
+
+    <!-- navbar markup start -->
+    
+    <section class="nav-sticky">
+      <nav class="navbar  navbar-expand-lg navbar-light" id="nav">
+        <div class="container">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle manu-color" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SMAARTPHONES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Samsung</a></li>
+                  <li><a class="dropdown-item" href="#">iPhone</a></li>
+                  <li><a class="dropdown-item" href="#">realme</a></li>
+                  <li><a class="dropdown-item" href="#">vivo</a></li>
+                  <li><a class="dropdown-item" href="#">vivo</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle manu-color" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ELECTRONICS & APPLIANCES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Home Appliances</a></li>
+                  <li><a class="dropdown-item" href="#">Televisions</a></li>
+                  <li><a class="dropdown-item" href="#">Air Conditioner</a></li>
+                  <li><a class="dropdown-item" href="#">Microwave Oven</a></li>
+                  <li><a class="dropdown-item" href="#">Kettle</a></li>
+                  <li><a class="dropdown-item" href="#">Rice Cooker</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle manu-color" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MOBILE ACCESSORIES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Smart Watch</a></li>
+                  <li><a class="dropdown-item" href="#">Charger</a></li>
+                  <li><a class="dropdown-item" href="#">Adapter</a></li>
+                  <li><a class="dropdown-item" href="#">Data Cables</a></li>
+                  <li><a class="dropdown-item" href="#">Bluetooth Headphone</a></li>
+                  <li><a class="dropdown-item" href="#">Memory Card</a></li>
+                  <li><a class="dropdown-item" href="#">Action Camera</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle manu-color" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  COMPUTER & ACCESSORIES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Mouse</a></li>
+                  <li><a class="dropdown-item" href="#">Laptop & Notebook</a></li>
+                  <li><a class="dropdown-item" href="#">Mouse Pad</a></li>
+                  <li><a class="dropdown-item" href="#">Pen Drive</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle manu-color" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  LIFESTYLE
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Trimmer & Shaver</a></li>
+                  <li><a class="dropdown-item" href="#">Hair straighteners</a></li>
+                  <li><a class="dropdown-item" href="#">Hair Dryers</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- navbar markup end -->
+
+  <!-- slider markup start -->
+  <section>
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active boolet" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="boolet" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="boolet" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/music_speak_big_banner.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/nagad_10_cashback_big_baner_1_.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/amazfit_gts_2_mini_big_banner.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- slider markup end -->
+
+  <!-- smartphone section markup start -->
+  <section id="smartphone">
+    <div class="container">
+      <img src="img/SmartPhone.jpg" alt="SmartPhone">
+    </div>
+  </section>
+  <!-- smartphone section markup end -->
+
+  <!-- mobile card section markup start -->
+  <section id="mobile-card">
+    <div class="container">
+      <h2>MOBILE</h2>
+      <div class="blank-line">
+        <div class="blank-line-color"></div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <a href="#">
+            <img src="img/cart1.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">realme C21Y 4GB/64GB</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 12,790</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/cart2.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">vivo Y15s 3GB/64GB</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 11,990 <del><i class="fa-solid fa-hryvnia-sign"></i> 12,990</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/cart3.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Infinix 11 Play</h5></a>
+            <p class="card-text">4GB/64GB</p>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 11,990</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/cart4.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">realme C11 2021</h5></a>
+            <p class="card-text">4GB/64GB</p>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 11,090</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/cart5.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Nokia 1.4 DS 3GB/64GB</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 9,990</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/cart6.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">SamsungGalaxy A03</h5></a>
+            <p class="card-text">Core 2GB/32GB</p>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 9,699</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- mobile card section markup end -->
+
+
+  <!-- mobile accessories img markup start -->
+  <section id="mobile-accessories">
+    <div class="container">
+      <img src="img/Mobile-ac-updated.jpg" alt="Mobile Accessories">
+    </div>
+  </section>
+  <!-- mobile accessories img markup end -->
+
+  <!-- mobile accessories card markup start -->
+  <section id="mobile-accessories-card">
+    <div class="container">
+      <h2>Mobile Accessories</h2>
+      <div class="blank-line">
+        <div class="blank-line-color"></div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <a href="#">
+            <img src="img/cart11.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Baseus 25W Super Si Adapter 1C Quick charge</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 999 <del><i class="fa-solid fa-hryvnia-sign"></i> 1,390</del></p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/card12.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">realme Buds Air2</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 3,699 <del><i class="fa-solid fa-hryvnia-sign"></i> 3,990</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/card13.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">OnePlise Bullets Wireless</h5></a>
+            <p class="card-text">Z Series Bass Edition</p>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 2,349 <del><i class="fa-solid fa-hryvnia-sign"></i> 3,999</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/card14.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">JBL Flip 5 Wireless</h5></a>
+            <p class="card-text">Portable Sppeaker</p>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 8,990 <del><i class="fa-solid fa-hryvnia-sign"></i> 11,090</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/card15.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">JBL T110 In-Ear Headphones</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 3,749 <del><i class="fa-solid fa-hryvnia-sign"></i> 10,990</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/card16.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Xiaomi TV Stick Global </h5></a>
+            <p class="card-text">Version</p>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 1,290 <del><i class="fa-solid fa-hryvnia-sign"></i> 4,699</del></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- mobile accessories card markup start -->
+
+  <!-- smartwatch img markup start -->
+  <section id="smartwatch">
+    <div class="container">
+      <img src="img/smartwatch.jpg" alt="Smart Watch">
+    </div>
+  </section>
+  <!-- smartwatch img markup end -->
+
+  <!-- smartwatch card markup start -->
+  <section id="smartwatch-card">
+    <div class="container">
+      <h2>SMART WATCH</h2>
+      <div class="blank-line">
+        <div class="blank-line-color"></div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <a href="#">
+            <img src="img/watch1.jpg" class="card-img-top" alt="Watch">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Huawei Smart Watch GT3Classic Edition</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 23,999</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/watch2.jpg" class="card-img-top" alt="Watch">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Mibro X1 Smart Watch</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 4,099<del><i class="fa-solid fa-hryvnia-sign"></i> 4,990</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/watch3.jpg" class="card-img-top" alt="Watch">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Haylou RT2 Smart Watch</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 3,999 <del><i class="fa-solid fa-hryvnia-sign"></i> 4,999</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/watch4.jpg" class="card-img-top" alt="Watch">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Amazfit GTR3 Pro</h5></a>
+            <p class="card-text">Smartwatch</p>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 18,990 <del><i class="fa-solid fa-hryvnia-sign"></i> 21,990</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/watch5.jpg" class="card-img-top" alt="Watch">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Imilab W12 Smart Watch Global Version</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 3,749 <del><i class="fa-solid fa-hryvnia-sign"></i> 4,990</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/watch6.jpg" class="card-img-top" alt="Watch">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Amazfit GTS2 Mini Smart</h5></a>
+            <p class="card-text">Watch/p>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 7,990 <del><i class="fa-solid fa-hryvnia-sign"></i> 9,999</del></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- smartwatch card markup end -->
+
+  <!-- laptop img markup start -->
+  <section id="laptop">
+    <div class="container">
+      <img src="img/Laptop-home-page.jpg" alt="Laptop">
+    </div>
+  </section>
+  <!-- laptop img markup  end -->
+
+  <!-- Laptop card markup start -->
+  <section id="laptop-card">
+    <div class="container">
+      <h2>LAPTOP & NOTEBOOK</h2>
+      <div class="blank-line">
+        <div class="blank-line-color"></div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <a href="#">
+            <img src="img/laptop1.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Acer Aspire 3 A315-58 i3 11<sup>th</sup> Gen 15.6" GHD 4G</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 43,999 <del><i class="fa-solid fa-hryvnia-sign"></i> 48,990</del></p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/laptop2.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Apple iPad Mini (6th Gen) WiFi</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 61,999 </p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/laptop3.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Apple Macbook Air 13.3 Inch Retina Display 8</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 98,999 <del><i class="fa-solid fa-hryvnia-sign"></i> 103,999</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/laptop4.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Huawei MatejPad T 10s</h5></a>
+            <p class="card-text">(WiFi) 2GB/32GB Tab</p>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 14,990 </p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/laptop5.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Lenovo IP SLIM 3i 15.6"</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 55,749 <del><i class="fa-solid fa-hryvnia-sign"></i> 64,990</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/laptop6.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">SamsungGalaxy Tab A7</h5></a>
+            <p class="card-text">Lite 3GB/32GB</p>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 17,990 </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Laptop card markup end -->
+
+  <!-- computer accessories img markup start -->
+  <section id="computer-accessories">
+    <div class="container">
+      <img src="img/Computer-ac-updated.jpg" alt="Laptop">
+    </div>
+  </section>
+  <!-- computer accessories img markup end -->
+
+  <!-- computer accessories card markup start -->
+  <section id="computer-accessories-card">
+    <div class="container">
+      <h2>COMPUTER ACCESSORIES</h2>
+      <div class="blank-line">
+        <div class="blank-line-color"></div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <a href="#">
+            <img src="img/computer1.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Adata HD680 1TB External Hard Drive</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 3,999 <del><i class="fa-solid fa-hryvnia-sign"></i> 4,990</del></p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/computer2.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">adata UB150 USB 3.2 32GB Pen drive-Blak</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 899 </p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/computer3.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">TP-Link Archer C6 AC 1200 (US Version...</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 3,999 <del><i class="fa-solid fa-hryvnia-sign"></i> 3,299</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/computer4.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Logitech C270 720p HD</h5></a>
+            <p class="card-text">Webcam with Mic</p>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 3,999 <del><i class="fa-solid fa-hryvnia-sign"></i> 2,890</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/computer5.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Microsoft Xbox Series S 4K Slim Gaming Console</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 25,749 <del><i class="fa-solid fa-hryvnia-sign"></i> 33,990</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/computer6.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Gamdias EROS E2 RGB</h5></a>
+            <p class="card-text">Gaming  Headphone</p>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i>1,690 <del><i class="fa-solid fa-hryvnia-sign"></i> 1,990</del></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- computer accessories card markup end -->
+
+  <!-- electronics img markup start -->
+  <section id="electronics">
+    <div class="container">
+      <img src="img/Electronics-updated.jpg" alt="Laptop">
+    </div>
+  </section>
+  <!-- electronics img markup  end -->
+
+  <!-- electronics card markup start -->
+  <section id="electronics-card">
+    <div class="container">
+      <h2>ELECTRONICS & APPLIANCES</h2>
+      <div class="blank-line">
+        <div class="blank-line-color"></div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <a href="#">
+            <img src="img/electronics1.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Gree GS18S 1.5 Ton Non-Inverter Fairy Split...</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 48,999 <del><i class="fa-solid fa-hryvnia-sign"></i> 48,990</del></p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/electronics2.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Havells Jio 1000W Dry Iron-Blue</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 1,999 </p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/electronics3.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Philips Hl7732/00 850 Watt Mixer Grinder</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 7,999 <del><i class="fa-solid fa-hryvnia-sign"></i> 9,999</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/electronics4.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">SHARP Microwave Oven </h5></a>
+            <p class="card-text">R-20A0 (K)V - 20 L</p>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 5,990 </p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/electronics5.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">walton 328 Ltr Non-Frost Refrigerator...</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 45,749 <del><i class="fa-solid fa-hryvnia-sign"></i> 54,990</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/electronics6.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Xiaomi Mi P1 L55M6-</h5></a>
+            <p class="card-text">6AEY 55-Inch smart...</p>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 58,990 <del><i class="fa-solid fa-hryvnia-sign"></i> 70,990</del></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- electronics card markup end -->
+
+  <!-- Lifestyle img markup start -->
+  <section id="lifestyle">
+    <div class="container">
+      <img src="img/LIFESTYLE.jpg" alt="Laptop">
+    </div>
+  </section>
+  <!-- Lifestyle img markup  end -->
+
+  <!-- Lifestyle card markup start -->
+  <section id="lifestyle-card">
+    <div class="container">
+      <h2>LIFESTYLE</h2>
+      <div class="blank-line">
+        <div class="blank-line-color"></div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <a href="#">
+            <img src="img/lifestyle2.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">HUGO BOSS BOTTELED UNLIMITED EDT 100...</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 3,900 <del><i class="fa-solid fa-hryvnia-sign"></i> 4,990</del></p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/lifestyle1.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Fossil FS5273 Brown & Blue Quartz Watch for...</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 11,500 <del><i class="fa-solid fa-hryvnia-sign"></i> 14,990</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/lifestyle3.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">ORIGINE Strada Mohawk Combo Helmets (Glossy ...</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 9,999 <del><i class="fa-solid fa-hryvnia-sign"></i> 13,999</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/lifestyle4.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Huawei MatejPad T 10s</h5></a>
+            <p class="card-text">(WiFi) 2GB/32GB Tab</p>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 14,990 </p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/lifestyle5.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Philips BT1230 Cordless Trimmer</h5></a>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 6,500 <del><i class="fa-solid fa-hryvnia-sign"></i> 8,990</del></p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="#">
+            <img src="img/lifestyle6.jpg" class="card-img-top" alt="Laptop">
+          </a>
+          <div class="card-body">
+            <a href="#"><h5 class="card-title">Yijian DK05AK Electric</h5></a>
+            <p class="card-text">Treadmill</p>
+            <p class="card-text"><i class="fa-solid fa-hryvnia-sign"></i> 36,500 </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Lifestyle card markup end -->
+
+  <!-- footer markup start -->
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="about">
+            <h3>ABOUT</h3>
+            <P>About Us</P>
+            <p>Cookie Policy</p>
+            <p>Why Shop with Us</p>
+            <p>Terms & Conditions</p>
+            <p>Help</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="contact">
+            <h3>CONTACT</h3>
+            <p>Contact Us</p>
+            <p><i class="fa-solid fa-phone"></i> +9282837482</p>
+            <p><i class="fa-solid fa-envelope"></i> info1234@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="pickaboo">
+            <h3>COMPANY</h3>
+              <p><i class="fa-solid fa-location-dot"></i> House 10,Road 2, Block F, Dhaka-1212,Bangladesh</p>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="copyright">
+      <p>Copyright &copy;2022 Pondit.com</p>
+    </div>
+  </footer>
+  <!-- footer markup end -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+
+.btn-primary{
+    border: none !important;
+}
+
+/* Login Page style start */
+#login_page{
+    width: 500px;
+    margin: 20px auto;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+#login_page .login > a{
+    text-decoration: none;
+    color: #000;
+}
+
+#login_page .login img{
+    padding-left: 172px;
+    padding-top: 15px;
+    width: 300px;
+    height: 100px;
+}
+
+#login_page .login h3{
+    text-align: center;
+    color: blue;
+}
+
+#login_page .login .facebook{
+    position: relative;
+}
+
+#login_page .login .facebook .btn{
+    width: 400px;
+    margin-left: 35px;
+    margin-top: 40px;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: #3B5998;
+}
+
+#login_page .login .facebook .btn-primary:focus{
+    box-shadow: 0 0 0 0.25rem rgb(154 177 227);
+}
+
+#login_page .login .facebook i{
+    color: #fff;
+    background-color: #3B5998;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left: 55px;
+}
+
+#login_page .login .google{
+    position: relative;
+}
+
+#login_page .login .google .btn{
+    width: 400px;
+    margin-left: 35px;
+    margin-top: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: #4285F4;
+}
+
+#login_page .login .google .btn-primary:focus{
+    box-shadow: 0 0 0 0.25rem rgb(47 111 217);
+}
+
+#login_page .login .google i{
+    color: #fff;
+    background-color: #4285F4;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 55px;
+}
+
+#login_page .login .or{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#login_page .login .mb-3{
+    width: 400px;
+    margin-left: 35px;
+}
+
+#login_page .login .btn{
+    width: 400px;
+    margin-left: 35px;
+    margin-top: 10px;
+    color: rgb(250, 250, 250);
+    background-color: #e63e14;
+}
+
+#login_page .login .submit:focus{
+    box-shadow: 0 0 0 0.25rem rgb(221 122 97);
+}
+
+#login_page .login .forgot p{
+    color: #4285F4;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#login_page .login .create{
+    font-weight: bold;
+    text-align: center;
+}
+
+footer p{
+    width: 400px;
+    margin: 20px auto;
+}
+/* Login Page style end */
+
+/* Register Page styel start */
+
+#register_page{
+    width: 500px;
+    margin: 20px auto;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+#register_page .register > a{
+    text-decoration: none;
+    color: #000;
+}
+
+#register_page .register img{
+    padding-left: 180px;
+    padding-top: 15px;
+    width: 300px;
+    height: 100px;
+}
+
+#register_page .register h3{
+    text-align: center;
+    color: blue;
+}
+
+#register_page .register .facebook{
+    position: relative;
+}
+
+#register_page .register .facebook .btn{
+    width: 400px;
+    margin-left: 35px;
+    margin-top: 40px;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: #3B5998;
+}
+#register_page .register .facebook .btn-primary:focus{
+    box-shadow: 0 0 0 0.25rem rgb(154 177 227);
+}
+
+#register_page .register .facebook i{
+    color: #fff;
+    background-color: #3B5998;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left: 55px;
+}
+
+#register_page .register .google{
+    position: relative;
+}
+
+#register_page .register .google .btn{
+    width: 400px;
+    margin-left: 35px;
+    margin-top: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: #4285F4;
+}
+
+#register_page .register .google .btn-primary:focus{
+    box-shadow: 0 0 0 0.25rem rgb(47 111 217);
+}
+
+#register_page .register .google i{
+    color: #fff;
+    background-color: #4285F4;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 55px;
+}
+
+#register_page .register .or{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#register_page .register .mb-3{
+    width: 400px;
+    margin-left: 35px;
+}
+
+#register_page .register .btn{
+    width: 400px;
+    margin-left: 35px;
+    margin-top: 10px;
+    color: rgb(250, 250, 250);
+    background-color: #e63e14;
+}
+
+#register_page .register .btn-primary:focus{
+    box-shadow: 0 0 0 0.25rem rgb(241 142 118);
+}
+
+#register_page .register .create{
+    color: #000000;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+/* Register Page styel end */

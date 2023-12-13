@@ -1,0 +1,411 @@
+*{
+    box-sizing: border-box;
+}
+body, h1, h2, h3, h4, h5, h6, p, figure, a{
+    padding: 0;
+    margin: 0;
+}
+
+/* header style start */
+
+#header-top{
+    border-top: 1px solid gray;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#header-top .navbar-brand img{
+    width: 100px;
+    height: 50px;
+}
+
+#header-top .d-flex{
+    width: 400px;
+    margin-left: 100px;
+}
+
+#header-top .mycart{
+    padding-left: 120px;
+    display: flex;
+    position: relative;
+}
+
+#header-top .mycart p {
+    margin-bottom: 0 !important;
+    padding: 5px 10px;
+    background-color: #ddd;
+}
+
+#header-top .mycart .fa-cart-plus{
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+#header-top .mycart .fa-0{
+    width: 20px;
+    height: 22px;
+    background-color: #000;
+    border-radius: 50%;
+    color: #ddd;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+    position: absolute;
+    top: -13px;
+    right: 65px;
+
+}
+
+#header-top .mycart  a{
+    text-decoration: none;
+}
+
+.navbar-nav{
+    padding-left: 50px !important;
+}
+
+#header-top .nav-item{
+    display: flex;
+}
+
+#header-top .nav-item i{
+    padding-top: 13px;
+    font-size: 14px;
+}
+
+#header-top .nav-item:hover, #header-top .nav-item:hover a{
+    color: rgb(26, 40, 160);
+}
+/* header style end */
+
+/* navbar style start */
+ #nav{
+    background-color: rgba(40, 40, 194, 0.596);
+}
+
+.nav-sticky{
+    position: sticky !important;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-light .navbar-nav .manu-color{
+    color: #fff!important;
+    font-size: 15px;
+    font-weight: 600
+}
+
+.navbar-light .navbar-nav .dropdown{
+    padding-right: 20px !important;
+}
+.navbar-light .navbar-nav .nav-item:hover{
+    background-color: #fff;
+    
+}
+.navbar-light .navbar-nav .nav-item:hover .manu-color{
+    color: #000 !important;
+}
+.boolet{
+    color: aqua !important;
+}
+/* navbar style end */
+
+/* card common style start*/
+
+.card-group{
+    column-gap: 20px;
+}
+.card{
+    border-left: 1px solid rgb(188, 182, 182) !important;
+    height: 300px;
+    align-items: center;
+}
+
+.card img{
+    transition: 2s ease-out;
+    transition-duration: 3s;
+    width: 130px;
+    height: 150px;
+}
+
+.card:hover img{
+    transform: scale(1.1);
+}
+.card .card-body >p{
+    margin: 0;
+    text-align: center;
+}
+
+.card .card-body .card-title{
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+}
+.card .card-body .card-title:hover{
+    color: blue;
+}
+.card .card-body a{
+    text-decoration: none;
+}
+.card .card-body{
+    padding: 0.8rem 0 !important;
+}
+
+.card:hover{
+    box-shadow:  0 0 10px gray;
+} 
+
+.blank-line{
+    height: 2px;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+/* card common style end*/
+
+
+/* smartphone img style start */
+#smartphone{
+    margin-top: 40px;
+}
+#smartphone .container img{
+    width: 100%;
+    opacity: 60%;
+    transition: all 1s ease-in-out;
+}
+
+#smartphone .container img:hover{
+    opacity: 100%;
+}
+
+/* smartphone img style end */
+
+/* mobile card style start */
+
+#mobile-card{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#mobile-card .blank-line-color{
+    width: 120px;
+    height: 2px;
+    background-color: aqua;
+}
+
+/* mobile card style end */
+
+/* mobile accessories img style start */
+
+#mobile-accessories .container img{
+    width: 100%;
+    opacity: 60%;
+    transition: all 1s ease-in-out;
+}
+
+#mobile-accessories .container img:hover{
+    opacity: 100%;
+}
+
+/* mobile accessories img style end */
+
+/* mobile accessories card style start */
+
+#mobile-accessories-card{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#mobile-accessories-card .blank-line-color{
+    width: 275px;
+    height: 2px;
+    background-color: aqua;
+}
+
+/* mobile accessories card style end */
+
+/* smartWatch img style start */
+
+#smartwatch .container img{
+    width: 100%;
+    opacity: 60%;
+    transition: all 1s ease-in-out;
+}
+
+#smartwatch .container img:hover{
+    opacity: 100%;
+}
+/* smartWatch img style end */
+
+/* smartwatch card style start */
+
+#smartwatch-card{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#smartwatch-card .blank-line-color{
+    width: 220px;
+    height: 2px;
+    background-color: aqua;
+}
+
+/* smartwatch card style end */
+
+/* laptop img style start */
+
+#laptop .container img{
+    width: 100%;
+    opacity: 60%;
+    transition: all 1s ease-in-out;
+}
+
+#laptop .container img:hover{
+    opacity: 100%;
+}
+
+/* laptop img style end */
+
+
+/* laptop card style start */
+
+#laptop-card{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#laptop-card .blank-line-color{
+    width: 327px;
+    height: 2px;
+    background-color: aqua;
+}
+/* laptop card style end */
+
+/* computer accessories img style start */
+
+#computer-accessories .container img{
+    width: 100%;
+    opacity: 60%;
+    transition: all 1s ease-in-out;
+}
+
+#computer-accessories .container img:hover{
+    opacity: 100%;
+}
+
+/* computer accessories img style end */
+
+/* computer accessories card style start */
+
+#computer-accessories-card{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#computer-accessories-card .blank-line-color{
+    width: 374px;
+    height: 2px;
+    background-color: aqua;
+}
+/* computer accessories card style end */
+
+/* electronics img style start */
+
+#electronics .container img{
+    width: 100%;
+    opacity: 60%;
+    transition: all 1s ease-in-out;
+}
+
+#electronics .container img:hover{
+    opacity: 100%;
+}
+
+/* electronics img style end */
+
+
+/* electronics card style start */
+
+#electronics-card{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#electronics-card .blank-line-color{
+    width: 425px;
+    height: 2px;
+    background-color: aqua;
+}
+/* electronics card style end */
+
+/* lifestyle img style start */
+
+#lifestyle .container img{
+    width: 100%;
+    opacity: 60%;
+    transition: all 1s ease-in-out;
+}
+
+#lifestyle .container img:hover{
+    opacity: 100%;
+}
+
+/* lifestyle img style end */
+
+
+/* lifestyle card style start */
+
+#lifestyle-card{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#lifestyle-card .blank-line-color{
+    width: 145px;
+    height: 2px;
+    background-color: aqua;
+}
+/* lifestyle card style end */
+
+/* footer style start */
+
+footer{
+    margin-top: 40px;
+    background-color: rgb(253, 245, 245);
+    padding: 20px 0;
+}
+
+footer .container .row .about{
+    width: 100%;
+    border-right: #000 1px solid;
+}
+
+footer .container .row h3{
+    font-size: 18px;
+    font-weight: 650;
+    padding: 0  0 20px 120px;
+}
+
+footer .container .row .about p{
+    line-height: 12px;
+}
+
+footer .container .row .contact{
+    width: 100%;
+    border-right: #000 1px solid;
+}
+
+.copyright{
+    background-color: rgb(196, 180, 180);
+    padding: 10px 0;
+    text-align: center;
+}
+/* footer style end */
+
+
+
+
+
+
+
+
+
